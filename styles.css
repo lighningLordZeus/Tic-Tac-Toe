@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Rubik+Scribble&display=swap');
+
 *,
 *::after,
 *::before {
@@ -129,7 +131,7 @@ body {
     color: white;
     font-size: 5rem;
     flex-direction: column;
-    font-family: 'rubik scribble', Courier, monospace;
+    font-family: 'Rubik Scribble', system-ui;
 }
 
 .winning-message button {
@@ -139,7 +141,7 @@ body {
     padding: .25em .5em;
     cursor: pointer;
     border-radius: 10px;
-    font-family: 'comfortaa', Courier, monospace;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .winning-message button:hover {
